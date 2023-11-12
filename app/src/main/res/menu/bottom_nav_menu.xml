@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/recipesFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_menu_book"
+        android:title="Recipe" />
+    <item
+        android:id="@+id/favoriteRecipeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_favorite_star"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/foodJokeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Joke"
+        android:icon="@drawable/ic_food_joke_emoji"/>
+</menu>
